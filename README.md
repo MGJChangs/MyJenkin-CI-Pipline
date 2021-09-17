@@ -33,8 +33,19 @@ http://<ec2-ip>:<Port>/generic-webhook-trigger/invoke?token=<Access Token>
 ----Step 8: Install plug in Generic Webhook Trigger -----
   
 ----Step 9: Create Pipeline -----
-  
+ 
 ----Step 10: Create Pipeline -----
+  Post Conetnt Parameters:
+   Variable: ref
+   Expression: $.ref
+
+  Optional Filter:
+
+  Exp: refs/heads/feature1
+  Text: $ref
+
+add token  
+ 
 generate script
 
 sh '''
