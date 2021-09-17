@@ -1,5 +1,8 @@
-# Jenkin-CI-Pipline Setup
+# YouTube Tutorial:
+https://www.youtube.com/watch?v=VDpAnE05Ic4
 
+
+# Jenkin-CI-Pipline Setup
 ----Step 1: Use below command to create jenkins server in AWS EC2 -----
 
 #!/bin/bash
